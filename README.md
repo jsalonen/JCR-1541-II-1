@@ -1,5 +1,9 @@
 # JCR 1541-II 1 - Hybrid Commodore 1541 Disk Drive Emulator with RetroPie Support
 
+## Software Setup: PI1541
+
+TODO
+
 ## Optional: Adding RetroPie Support
 
 ### Install RetroPie
