@@ -12,7 +12,14 @@ Obtain SD card and flash it with [RetroPie (v4.0.2 or later)](https://retropie.o
 
 ### Configure OLED Display Support
 
-Install and configure RetroPie OLED: https://github.com/zzeromin/RetroPie-OLED
+Install and configure RetroPie OLED (https://github.com/zzeromin/RetroPie-OLED):
+
+    sudo apt-get update
+    cd /home/pi
+    git clone https://github.com/losernator/RetroPie-OLED.git
+    cd /home/pi/RetroPie-OLED/
+    chmod 755 11.OLED.sh
+    sudo ./11.OLED.sh
 
 Note that if you want to use retropie in parallel to pi1541, your PI1541 hat
 must be in bus 1 mode to maintain pinout compatibility:
