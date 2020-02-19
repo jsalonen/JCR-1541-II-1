@@ -21,6 +21,11 @@ For hardware pinout compatibility, make sure your PI1541 Hat is configured to us
 | SDA             | pin 27             | pin 3              | pin 3         |
 | SDL             | pin 28             | pin 5              | pin 5         |
 
+### Install C64 Emulator (Vice)
+
+- Navigate to RetroPie Setup
+- From optional packages, choose and install VICE
+
 #### Using SSD1306 OLED 128x32
 
 Install and configure RetroPie OLED version that has been specially adjusted for this use:
