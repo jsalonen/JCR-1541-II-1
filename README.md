@@ -36,3 +36,7 @@ Install and configure RetroPie OLED version that has been specially adjusted for
     cd RetroPie-OLED
     chmod 755 11.OLED.sh
     sudo ./11.OLED.sh
+
+End result should look like this:
+
+![](./images/20200220-1.jpg)
