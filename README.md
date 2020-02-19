@@ -1,6 +1,6 @@
 # JCR-1541-II-1 - A Hybrid Disk Drive and C64 Emulator Device in Commodore 1541-II Form Factor
 
-![](./images/20200214-1.jpg)
+![](./images/20200214-1.jpg =250x)
 
 ## Software Setup: PI1541
 
