@@ -21,17 +21,13 @@ For hardware pinout compatibility, make sure your PI1541 Hat is configured to us
 | SDA             | pin 27             | pin 3              | pin 3         |
 | SDL             | pin 28             | pin 5              | pin 5         |
 
-#### Using SSD1306 OLED 128x64
+#### Using SSD1306 OLED 128x32
 
-Install and configure RetroPie OLED (https://github.com/zzeromin/RetroPie-OLED):
+Install and configure RetroPie OLED version that has been specially adjusted for this use:
 
     sudo apt-get update
     cd /home/pi
-    git clone https://github.com/losernator/RetroPie-OLED.git
+    git clone https://github.com/jsalonen/RetroPie-OLED.git
     cd RetroPie-OLED
     chmod 755 11.OLED.sh
     sudo ./11.OLED.sh
-
-#### Using SSD1306 OLED 128x32
-
-TODO
