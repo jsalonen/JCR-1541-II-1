@@ -17,7 +17,7 @@ Install and configure RetroPie OLED (https://github.com/zzeromin/RetroPie-OLED):
     sudo apt-get update
     cd /home/pi
     git clone https://github.com/losernator/RetroPie-OLED.git
-    cd /home/pi/RetroPie-OLED/
+    cd RetroPie-OLED
     chmod 755 11.OLED.sh
     sudo ./11.OLED.sh
 
