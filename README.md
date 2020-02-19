@@ -1,4 +1,4 @@
-# JCR 1541-II 1 - JCR Build for Hybrid Commodore 1541 Disk Drive Emulator and C64 Emulator with RetroPie
+# JCR 1541-II 1 - Hybrid Commodore 1541 Disk Drive Emulator with RetroPie Support
 
 ## Optional: Adding RetroPie Support
 
