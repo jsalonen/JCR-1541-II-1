@@ -22,6 +22,7 @@ See the table below for feature comparison between Pi1541 and C64 emulator modes
 | LED screen           | supported          | supported          |
 | Front panel buttons  | supported          | not supported      |
 | Disk images via USB  | supported          | not supported      |
+| HDMI output          | supported          | supported          |
 | USB joysticks        | -                  | supported          |
 | Bluetooth joysticks  | -                  | supported          |
 
