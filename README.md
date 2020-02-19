@@ -21,7 +21,7 @@ Install and configure RetroPie OLED (https://github.com/zzeromin/RetroPie-OLED):
     chmod 755 11.OLED.sh
     sudo ./11.OLED.sh
 
-**For hardware pinout compatibility, make sure your PI1541 Hat is configured to use bus 1**.
+For hardware pinout compatibility, make sure your PI1541 Hat is configured to use bus 1 (see table above).
 
 | pin             | PI1541 Hat (Bus 0) | PI1541 Hat (Bus 1) | RetroPie OLED |
 |-----------------|--------------------|--------------------|---------------|
