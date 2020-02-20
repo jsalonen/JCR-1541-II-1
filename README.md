@@ -76,3 +76,9 @@ Install and configure RetroPie OLED version that has been specially adjusted for
 End result should look like this:
 
 ![](./images/20200220-1.jpg)
+
+## License and Credits
+
+This project includes the following 
+
+- Case is adapted from [Pi1541-II Case](https://www.thingiverse.com/thing:3127040), by [chrisjh](https://www.thingiverse.com/chrisjh). Licensed under [Creative Commons - Attribution](https://creativecommons.org/licenses/by/3.0/).
