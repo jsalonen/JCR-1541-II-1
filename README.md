@@ -72,6 +72,8 @@ Post-process printed case as desired.
 
 ### Optional: Adding RetroPie Support
 
+At this point, the device already works as a feature complete 1541 Disk Drive Emulator. With the following setup, the same physical device can also be used as a C64 emulator.
+
 #### Install RetroPie
 
 Obtain SD card and flash it with [RetroPie (v4.0.2 or later)](https://retropie.org.uk/)
