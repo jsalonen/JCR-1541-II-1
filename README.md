@@ -30,7 +30,16 @@ See the table below for feature comparison between Pi1541 and C64 emulator modes
 
 ### Building PI1541 Hat
 
-TODO
+Obtain necessary materials and build a PI1541 Hat:
+
+- Order PCB: [Pi1541 IO Adapter Rev. 4](https://www.pcbway.com/project/shareproject/Pi1541_IO_Adapter__Rev_4.html)
+- Gather required components
+  - Most components documented at: https://www.hackup.net/2018/07/pi1541io-revision-4/
+  - Exception: get SSD1306 OLED 128x32 instead of 128x64!
+
+Solder components and necessary headers:
+
+- For pinout compatibility, solder LED screen to use **bus 1**
 
 ### Printing the Case
 
@@ -79,7 +88,9 @@ End result should look like this:
 
 ## License and Credits
 
-This project builds on top of the following works:
+**This project is provided "as is", without warranty of any kind.**
+
+The project includes adaptations of licensed works as follows:
 
 - Case is adapted from [Pi1541-II Case](https://www.thingiverse.com/thing:3127040), by [chrisjh](https://www.thingiverse.com/chrisjh). Licensed under [Creative Commons - Attribution](https://creativecommons.org/licenses/by/3.0/).
-- RetroPie-OLED. Licensed under GNU General Public License v3.0.
+- RetroPie OLED library is based on [RetroPie-OLED](https://github.com/losernator/RetroPie-OLED) by Duritz, losernator, RiNa, Yanubis, 까먹구, et al. Licensed under GNU General Public License v3.0.
