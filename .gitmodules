@@ -1,0 +1,3 @@
+[submodule "modules/retropie-oled"]
+	path = modules/retropie-oled
+	url = https://github.com/jsalonen/RetroPie-OLED
