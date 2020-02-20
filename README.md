@@ -32,7 +32,7 @@ See the table below for feature comparison between Pi1541 and C64 emulator modes
 
 In addition to the rest of the materials, you will need:
 
-- A Raspberry Pi Model 3 B or B+
+- A Raspberry Pi 3 Model B or B+
 - Raspberry Pi USB Power Adapter. If using a third party adapter, make sure it has sufficient power output.
 - microSD card
 
