@@ -79,6 +79,7 @@ End result should look like this:
 
 ## License and Credits
 
-This project includes the following 
+This project builds on top of the following works:
 
 - Case is adapted from [Pi1541-II Case](https://www.thingiverse.com/thing:3127040), by [chrisjh](https://www.thingiverse.com/chrisjh). Licensed under [Creative Commons - Attribution](https://creativecommons.org/licenses/by/3.0/).
+- RetroPie-OLED. Licensed under GNU General Public License v3.0.
