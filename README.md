@@ -14,17 +14,17 @@
 
 See the table below for feature comparison between Pi1541 and C64 emulator modes.
 
-| Feature              | Pi1541 Mode        | C64 Emulator Mode  |
-|----------------------|--------------------|--------------------|
-| Power led            | supported          | supported          |
-| Activity led         | supported          | not supported      |
-| Disk loading sounds  | supported          | not supported      |
-| LED screen           | supported          | supported          |
-| Front panel buttons  | supported          | not supported      |
-| Disk images via USB  | supported          | not supported      |
-| HDMI output          | supported          | supported          |
-| USB joysticks        | -                  | supported          |
-| Bluetooth joysticks  | -                  | supported          |
+| Feature              | 1541 Disk Drive Mode | C64 Emulator Mode  |
+|----------------------|----------------------|--------------------|
+| Power led            | supported            | supported          |
+| Activity led         | supported            | not supported      |
+| Disk loading sounds  | supported            | not supported      |
+| LED screen           | supported            | supported          |
+| Front panel buttons  | supported            | not supported      |
+| Disk images via USB  | supported            | not supported      |
+| HDMI output          | supported            | supported          |
+| USB joysticks        | -                    | supported          |
+| Bluetooth joysticks  | -                    | supported          |
 
 ## Building Instructions
 
