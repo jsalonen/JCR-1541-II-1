@@ -28,6 +28,14 @@ See the table below for feature comparison between Pi1541 and C64 emulator modes
 
 ## How to Do It Yourself
 
+### Requirements
+
+In addition to the rest of the materials, you will need:
+
+- A Raspberry Pi Model 3 B or B+
+- Raspberry Pi USB Power Adapter. If using a third party adapter, make sure it has sufficient power output.
+- microSD card
+
 ### Building PI1541 Hat
 
 Obtain necessary materials and build a PI1541 Hat:
@@ -35,19 +43,32 @@ Obtain necessary materials and build a PI1541 Hat:
 - Order PCB: [Pi1541 IO Adapter Rev. 4](https://www.pcbway.com/project/shareproject/Pi1541_IO_Adapter__Rev_4.html)
 - Gather required components
   - Most components documented at: https://www.hackup.net/2018/07/pi1541io-revision-4/
-  - Exception: get SSD1306 OLED 128x32 instead of 128x64!
+  - Exceptions:
+    - SSD1306 OLED 128x32 instead of SSD1306 OLED 128x64
+    - Straight push buttons instead of right-angle push buttons
 
 Solder components and necessary headers:
 
+- Build the hat according to Option B setup
 - For pinout compatibility, solder LED screen to use **bus 1**
+
+### Software Setup: Pi1541
+
+Obtain and install Pi1541: https://cbm-pi1541.firebaseapp.com/
+
+Configure your Pi1541 to match your Pi1541 hat build (Option A or Option B setup; enable piezo buzzer)
+
+If everything is done properly, you should be able to use 
 
 ### Printing the Case
 
-TODO
+Print all STL files contained in the case folder. Note that you will need to print five (5) OLED buttons.
 
-### Software Setup: PI1541
+Post-process printed case as desired.
 
-TODO
+### Wiring Pi1541 Hat to the Case
+
+(TO BE ADDED)
 
 ### Optional: Adding RetroPie Support
 
