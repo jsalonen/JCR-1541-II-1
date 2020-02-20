@@ -26,7 +26,7 @@ See the table below for feature comparison between Pi1541 and C64 emulator modes
 | USB joysticks        | -                  | supported          |
 | Bluetooth joysticks  | -                  | supported          |
 
-## How to Do It Yourself
+## Building Instructions
 
 ### Requirements
 
