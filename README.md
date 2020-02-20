@@ -76,7 +76,7 @@ At this point, the device already works as a feature complete 1541 Disk Drive Em
 
 #### Install RetroPie
 
-Obtain SD card and flash it with [RetroPie (v4.0.2 or later)](https://retropie.org.uk/)
+Obtain another SD card and flash it with [RetroPie (v4.0.2 or later)](https://retropie.org.uk/)
 
 #### Configure OLED Display Support
 
