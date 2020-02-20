@@ -70,7 +70,7 @@ Post-process printed case as desired.
 
 (TO BE ADDED)
 
-### Optional: Adding RetroPie Support
+### Adding RetroPie Support
 
 At this point, the device already works as a feature complete 1541 Disk Drive Emulator. With the following setup, the same physical device can also be used as a C64 emulator.
 
@@ -94,7 +94,7 @@ For hardware pinout compatibility, make sure your PI1541 Hat is configured to us
 - Navigate to RetroPie Setup
 - From optional packages, choose and install VICE
 
-##### Using SSD1306 OLED 128x32
+#### Using SSD1306 OLED 128x32
 
 Install and configure RetroPie OLED version that has been specially adjusted for this use:
 
