@@ -109,6 +109,26 @@ End result should look like this:
 
 ![](./images/20200220-1.jpg)
 
+#### Adding support for front panel buttons
+
+Install and configure GPIO module library:
+
+https://github.com/RetroPie/RetroPie-Setup/wiki/GPIO-Modules
+
+Pins:
+
+| Label           | GPIO pin | Pi1541 function         | RetroPie function |
+|-----------------|----------|-------------------------|-------------------|
+| Switch 1        | pin 13   | reset / select          | joystick fire     |
+| Switch 2        | pin 15   | previous disk / move up | joystick up       |
+| Switch 3        | pin 16   | next disk / move down   | joystick down     |
+| Switch 4        | pin 07   | exit folder             | joystick left     |
+| Switch 5        | pin 29   | insert disk             | joystick right    |
+
+TODO:
+
+- How to configure
+
 ## License and Credits
 
 **This project is provided "as is", without warranty of any kind.**
