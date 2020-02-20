@@ -111,11 +111,29 @@ End result should look like this:
 
 #### Adding support for front panel buttons
 
-Install and configure GPIO module library:
+Install GPIO driver:
 
-https://github.com/RetroPie/RetroPie-Setup/wiki/GPIO-Modules
+- RetroPie Setup > Manage Packages > Manage Driver Packages > **mkarcadejoystick**
 
-Pins:
+Reboot. Ensure the module is autoloaded:
+
+    sudo nano /etc/modules
+
+Make sure it contains line:
+
+    mk_arcade_joystick_rpi
+
+Open config file:
+
+    sudo nano /etc/modprobe.d/mk_arcade_joystick.conf
+
+Add custom gpio map (param order: Y-,Y+,X-,X+,start,select,a,b,tr,y,x,tl):
+
+    options mk_arcade_joystick_rpi map=5 gpio=16,15,7,29,-1,-1,13,-1,-1,-1,-1,-1   
+
+Reboot
+
+Pinout comparison table for reference:
 
 | Label           | GPIO pin | Pi1541 function         | RetroPie function |
 |-----------------|----------|-------------------------|-------------------|
@@ -125,9 +143,6 @@ Pins:
 | Switch 4        | pin 07   | exit folder             | joystick left     |
 | Switch 5        | pin 29   | insert disk             | joystick right    |
 
-TODO:
-
-- How to configure
 
 ## License and Credits
 
