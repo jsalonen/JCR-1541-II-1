@@ -1,4 +1,4 @@
-# JCR-1541-II-1 - A Hybrid Disk Drive and C64 Emulator in Commodore 1541-II Form Factor
+# JCR-1541-II-1 - A Hybrid 1541 Disk Drive and C64 Emulator in Classic Form Factor
 
 ![](./images/20200214-1.jpg)
 
@@ -14,17 +14,17 @@
 
 See the table below for feature comparison between Pi1541 and C64 emulator modes.
 
-| Feature              | Pi1541 Mode        | C64 Emulator Mode  |
-|----------------------|--------------------|--------------------|
-| Power led            | supported          | supported          |
-| Activity led         | supported          | not supported      |
-| Disk loading sounds  | supported          | not supported      |
-| LED screen           | supported          | supported          |
-| Front panel buttons  | supported          | not supported      |
-| Disk images via USB  | supported          | not supported      |
-| HDMI output          | supported          | supported          |
-| USB joysticks        | -                  | supported          |
-| Bluetooth joysticks  | -                  | supported          |
+| Feature              | 1541 Disk Drive Mode | C64 Emulator Mode  |
+|----------------------|----------------------|--------------------|
+| Power led            | supported            | supported          |
+| Activity led         | supported            | not supported      |
+| Disk loading sounds  | supported            | not supported      |
+| LED screen           | supported            | supported          |
+| Front panel buttons  | supported            | not supported      |
+| Disk images via USB  | supported            | not supported      |
+| HDMI output          | supported            | supported          |
+| USB joysticks        | -                    | supported          |
+| Bluetooth joysticks  | -                    | supported          |
 
 ## Building Instructions
 
