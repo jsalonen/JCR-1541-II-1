@@ -20,7 +20,7 @@ See the table below for feature comparison between Pi1541 and C64 emulator modes
 | Activity led         | supported            | not supported      |
 | Disk loading sounds  | supported            | not supported      |
 | LED screen           | supported            | supported          |
-| Front panel buttons  | supported            | not supported      |
+| Front panel buttons  | supported            | supported          |
 | Disk images via USB  | supported            | not supported      |
 | HDMI output          | supported            | supported          |
 | USB joysticks        | -                    | supported          |
@@ -111,27 +111,19 @@ End result should look like this:
 
 #### Adding support for front panel buttons
 
-Install GPIO driver:
+Install [https://github.com/mholgatem/GPIOnext](GPIONext) in retropie terminal:
 
-- RetroPie Setup > Manage Packages > Manage Driver Packages > **mkarcadejoystick**
+    cd ~
+    git clone https://github.com/mholgatem/GPIOnext.git
+    bash GPIOnext/install.sh
 
-Reboot. Ensure the module is autoloaded:
+Configure the buttons with wizard (as keyboard as controller, depending what you prefer)
 
-    sudo nano /etc/modules
+Run as background deamon:
 
-Make sure it contains line:
+    gpionext start
 
-    mk_arcade_joystick_rpi
-
-Open config file:
-
-    sudo nano /etc/modprobe.d/mk_arcade_joystick.conf
-
-Add custom gpio map (param order: Y-,Y+,X-,X+,start,select,a,b,tr,y,x,tl):
-
-    options mk_arcade_joystick_rpi map=5 gpio=16,15,7,29,-1,-1,13,-1,-1,-1,-1,-1   
-
-Reboot
+Reboot. When opening RetroPie, you should be able to use the buttons as a given controller
 
 Pinout comparison table for reference:
 
@@ -142,7 +134,6 @@ Pinout comparison table for reference:
 | Switch 3        | pin 16   | next disk / move down   | joystick down     |
 | Switch 4        | pin 07   | exit folder             | joystick left     |
 | Switch 5        | pin 29   | insert disk             | joystick right    |
-
 
 ## License and Credits
 
