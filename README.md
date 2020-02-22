@@ -20,7 +20,7 @@ See the table below for feature comparison between Pi1541 and C64 emulator modes
 | Activity led         | supported            | not supported      |
 | Disk loading sounds  | supported            | not supported      |
 | LED screen           | supported            | supported          |
-| Front panel buttons  | supported            | not supported      |
+| Front panel buttons  | supported            | supported          |
 | Disk images via USB  | supported            | not supported      |
 | HDMI output          | supported            | supported          |
 | USB joysticks        | -                    | supported          |
@@ -108,6 +108,32 @@ Install and configure RetroPie OLED version that has been specially adjusted for
 End result should look like this:
 
 ![](./images/20200220-1.jpg)
+
+#### Adding support for front panel buttons
+
+Install [https://github.com/mholgatem/GPIOnext](GPIONext) in retropie terminal:
+
+    cd ~
+    git clone https://github.com/mholgatem/GPIOnext.git
+    bash GPIOnext/install.sh
+
+Configure the buttons with wizard (as keyboard as controller, depending what you prefer)
+
+Run as background deamon:
+
+    gpionext start
+
+Reboot. When opening RetroPie, you should be able to use the buttons as a given controller
+
+Pinout comparison table for reference:
+
+| Label           | GPIO pin | Pi1541 function         | RetroPie function |
+|-----------------|----------|-------------------------|-------------------|
+| Switch 1        | pin 13   | reset / select          | joystick fire     |
+| Switch 2        | pin 15   | previous disk / move up | joystick up       |
+| Switch 3        | pin 16   | next disk / move down   | joystick down     |
+| Switch 4        | pin 07   | exit folder             | joystick left     |
+| Switch 5        | pin 29   | insert disk             | joystick right    |
 
 ## License and Credits
 
