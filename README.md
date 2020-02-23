@@ -62,7 +62,7 @@ If everything is done properly, you should be able to use
 
 ### Printing the Case
 
-Print all STL files contained in the case folder. Note that you will need to print five (5) OLED buttons.
+Print all STL files contained in the case folder. Note that you need to print five buttons.
 
 Post-process printed case as desired.
 
