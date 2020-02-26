@@ -127,13 +127,13 @@ Reboot. When opening RetroPie, you should be able to use the buttons as a given 
 
 Pinout comparison table for reference:
 
-| Label           | GPIO pin | Pi1541 function         | RetroPie function |
-|-----------------|----------|-------------------------|-------------------|
-| Switch 1        | pin 13   | reset / select          | joystick fire     |
-| Switch 2        | pin 15   | previous disk / move up | joystick up       |
-| Switch 3        | pin 16   | next disk / move down   | joystick down     |
-| Switch 4        | pin 07   | exit folder             | joystick left     |
-| Switch 5        | pin 29   | insert disk             | joystick right    |
+| Label           | pin      | GPIO   | Pi1541 function         | RetroPie function |
+|-----------------|----------|--------|-------------------------|-------------------|
+| Switch 1        | pin 13   | GPIO27 | reset / select          | joystick fire     |
+| Switch 2        | pin 15   | GPIO22 | previous disk / move up | joystick up       |
+| Switch 3        | pin 16   | GPIO23 | next disk / move down   | joystick down     |
+| Switch 4        | pin 07   | GPIO04 | exit folder             | joystick left     |
+| Switch 5        | pin 29   | GPIO05 | insert disk             | joystick right    |
 
 ## License and Credits
 
