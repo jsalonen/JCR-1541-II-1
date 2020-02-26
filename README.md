@@ -134,6 +134,7 @@ Pinout comparison table for reference:
 | Switch 3        | pin 16   | GPIO23 | next disk / move down   | joystick down     |
 | Switch 4        | pin 07   | GPIO04 | exit folder             | joystick left     |
 | Switch 5        | pin 29   | GPIO05 | insert disk             | joystick right    |
+| Reset           | pin 38   | GPIO20 | reset                   | n/a               |
 
 ## License and Credits
 
